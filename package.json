@@ -4,6 +4,8 @@
   "description": "back end for survey webapp",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
+    "server": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -16,5 +18,14 @@
   "bugs": {
     "url": "https://github.com/xerillius/survey_be/issues"
   },
-  "homepage": "https://github.com/xerillius/survey_be#readme"
+  "homepage": "https://github.com/xerillius/survey_be#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "helmet": "^4.4.1",
+    "knex": "^0.21.19",
+    "nodemon": "^2.0.7",
+    "pg": "^7.12.1"
+  }
 }
